@@ -14,5 +14,5 @@ public class Main {
 
         int operation = operationChoice();
         calculation(a,b,operation);
-    }12
+    }
 }
