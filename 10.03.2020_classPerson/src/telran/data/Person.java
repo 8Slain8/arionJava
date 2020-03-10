@@ -48,4 +48,15 @@ public class Person {
             System.out.println("not found");
         }
     }
+    public static void listCityMembers(Person[] persons, String city){
+        int flag=0;
+        for (int i = 0; i < persons.length; i++) {
+            if(persons[i].getAddress().getCity().equals(city)){
+                System.out.println(persons[i]);
+                flag=1;
+            }
+        }if(flag==0){
+            System.out.println("city not found");
+        }
+    }
 }

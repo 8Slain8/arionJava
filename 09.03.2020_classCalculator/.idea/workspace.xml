@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587fdfc3-bfe5-410e-a0aa-6872fd84e814" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../10.03.2020_classPerson/10.03.2020_classPerson.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09.03.2020_classCar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09.03.2020_classCar/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="587fdfc3-bfe5-410e-a0aa-6872fd84e814" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,5 +32,11 @@
       <updated>1583863999005</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1583872515737">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="453" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1583872515737" />
   </component>
 </project>
