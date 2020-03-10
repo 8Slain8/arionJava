@@ -1,9 +1,9 @@
 package telran.app;
 
 import telran.data.Car;
+import telran.data.CompareYear;
 
-import static telran.data.Car.printArrayCar;
-import static telran.data.Car.sortCarsByYear;
+import static telran.data.Car.*;
 
 
 public class Main {
@@ -15,8 +15,13 @@ public class Main {
 
         Car[] cars = new Car[]{car1,car2,car3,car4};
         printArrayCar(cars);
-        sortCarsByYear(cars);
+        //sortCarsByYear(cars);
         System.out.println();
+        sortCarsWithComparator2(cars);
+        System.out.println("after sort");
         printArrayCar(cars);
+        System.out.println();
     }
+
+
 }
