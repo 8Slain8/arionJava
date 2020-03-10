@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587fdfc3-bfe5-410e-a0aa-6872fd84e814" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../08.02.2020_calculator/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10.03.2020_classPerson/10.03.2020_classPerson.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../09.03.2020_classCar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09.03.2020_classCar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09.03.2020_classCar/out/production/09.03.2020_classCar/telran/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../09.03.2020_classCar/out/production/09.03.2020_classCar/telran/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09.03.2020_classCar/out/production/09.03.2020_classCar/telran/data/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../09.03.2020_classCar/out/production/09.03.2020_classCar/telran/data/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09.03.2020_classCar/src/telran/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09.03.2020_classCar/src/telran/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09.03.2020_classCar/src/telran/data/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09.03.2020_classCar/src/telran/data/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
