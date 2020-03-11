@@ -51,7 +51,7 @@ public class Person {
     public static void listCityMembers(Person[] persons, String city){
         int flag=0;
         for (int i = 0; i < persons.length; i++) {
-            if(persons[i].getAddress().getCity().equals(city)){
+            if(persons[i].getAddress().getCity().equalsIgnoreCase(city)){
                 System.out.println(persons[i]);
                 flag=1;
             }
