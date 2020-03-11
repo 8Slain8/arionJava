@@ -3,8 +3,7 @@ package telran.personApp;
 import telran.data.Address;
 import telran.data.Person;
 
-import static telran.data.Person.findByName;
-import static telran.data.Person.listCityMembers;
+import static telran.data.Person.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,6 +25,7 @@ public class Main {
 
         findByName(persons, "gena");
         listCityMembers(persons, "Berlin");
-
+        Person[] cityMember = Person.listCityMember(persons, "Berlin", 5);
+        Person.displayPersons(cityMember);
     }
 }
