@@ -4,6 +4,7 @@ import telran.data.Address;
 import telran.data.Person;
 
 import static telran.data.Person.findByName;
+import static telran.data.Person.listCityMembers;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,6 +25,7 @@ public class Main {
         System.out.println(p1.getName() + " lives on the "+p1.getAddress().getStreet());
 
         findByName(persons, "gena");
+        listCityMembers(persons, "Berlin");
 
     }
 }
