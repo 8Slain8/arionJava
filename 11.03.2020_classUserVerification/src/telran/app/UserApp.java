@@ -1,6 +1,8 @@
 package telran.app;
 
 import java.util.Scanner;
+
+import org.jetbrains.annotations.NotNull;
 import telran.data.User;
 
 public class UserApp {
@@ -29,10 +31,13 @@ public class UserApp {
         return operation;
     }
     public static void updateUsername(User user){
-        System.out.println("enter new name");
-        String newName = scanner.next();
-        user.setName(newName);
-        System.out.println("your new name is " + user.getName() + " now, pidor");
+        checkSecretCode(user);
+        if(checkSecretCode(user)!=0) {
+            System.out.println("enter new name");
+            String newName = scanner.next();
+            user.setName(newName);
+            System.out.println("your new name is " + user.getName() + " now, pidor");
+        }
     }
     public static void commitUserOperationChoice(int operation, User user){
         switch (operation){
@@ -54,6 +59,16 @@ public class UserApp {
             int operation = operationChoice();
             commitUserOperationChoice(operation, User.getUserByName(users, name));
         }
+    }
+    public static int checkSecretCode(User user){
+        System.out.println("Enter your secret code");
+        int flag = 0;
+        int sCode = scanner.nextInt();
+        if(sCode!=(user.getSecretCode())){
+            System.out.println("your secret code is wrong");
+        }else{flag = 1;
+        }
+        return flag;
     }
 
 }
